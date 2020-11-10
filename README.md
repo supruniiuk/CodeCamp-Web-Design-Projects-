@@ -1,3 +1,3 @@
 # CodeCamp-Web-Design-Projects-
 
-1. Tribute Page - https://codepen.io/juliet-supruniuk/pen/wvWMmOp
+1. Tribute Page - https://codepen.io/supruniiuk/pen/wvWMmOp
