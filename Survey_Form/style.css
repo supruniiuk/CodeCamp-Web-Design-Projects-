@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body{
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    outline:none;
+}
+.group{
+    margin-bottom: 15px;
+}
+
+/* HEADER START */
+header{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 600px;
+}
+#title{
+    font-weight: normal;
+    margin-bottom: -12px;
+}
+#description{
+    font-style: italic;
+}
+
+/* HEADER END */
+
+/* FORM */
+#survey-form{
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 650px;
+    background:rgba(27, 27, 50, 0.8);
+    text-align: left;
+}
+.form-wrapper{
+    padding: 40px 40px;
+}
+
+/* INPUT TEXT */ 
+
+#survey-form input:not(.input-checkbox):not(.input-radio), select, textarea, button{
+    width: 100%;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+#dropdown{
+    font-family: 'Poppins', sans-serif;
+    height: 35px;
+}
+/* RADIO BUTTON, CHECKBOX */
+.form-group label{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form-group, select{
+    margin-top: 7px;
+}
+.input-textarea{
+    display: block;
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/* BUTTON */
+.group p{
+    margin-bottom: -5px;
+}
+#submit{
+    height: 40px;
+    background: rgb(36, 153, 36);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
