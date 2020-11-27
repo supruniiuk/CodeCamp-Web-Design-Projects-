@@ -1,0 +1,157 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    padding-top: 75px;
+}
+li {
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* HEADER STARTS */
+#header{
+    position: fixed;
+    top:0;
+    max-width: inherit; 
+    width: 100%;
+    display: flex;
+    background-color: #eee;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+#nav-bar li{
+    display: inline;
+    padding-right: 70px;
+}
+#header-img{
+    max-width: 300px;
+}
+/* HEADER ENDS */
+
+/* FORM START */
+#form{
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-small;
+    padding-bottom: 50px;
+}
+#email{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 275px;
+
+}
+#submit, #subm{
+    padding: 7px;
+    background-color: rgb(255, 209, 6);
+    font-weight: bold;
+    border: none;
+}
+#submit:hover{
+    background-color:rgb(255, 176, 6);
+}
+/* FORM END */
+.wrapper-inside{
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* FEATURES START */
+.card h3{
+    padding-bottom: 3px;
+}.card p{
+    padding-bottom: 40px;
+}
+/* FEATURES END */
+
+/*  HOW IT WORKS START */
+#how-it-works{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+#video{
+    max-width: 560px;
+    width: 100%;
+    justify-content: center;
+}
+/*  HOW IT WORKS END */
+
+/* PRICING START */
+#pricing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+    align-items: center;
+}
+.product{
+    display: inline-block;
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+}
+.product h4{
+    background-color: rgb(219, 219, 219);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.price{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+.product p:not(.price){
+    padding-bottom: 7px;
+}
+.product #subm{
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+/* PRICING END */
+
+/*  FOOTER START */
+footer{
+    max-width: inherit; 
+    background-color: rgb(219, 219, 219);
+    padding: 16px;
+    text-align: right;
+}
+.info li {
+    display: inline;
+    margin-right: 20px;
+}
+/*   FOOTER END */
+@media (max-width: 810px) {
+    body{
+        width: 100%;
+    }
+    .main-content {
+     display: table-cell;
+     text-align: left;
+     vertical-align: middle;
+     height: 100%;
+    }
+    #header-img{
+        max-width: 200px;
+    }
+    footer{
+        max-width: 770px;
+        margin: 0 auto;
+    }
+  }
